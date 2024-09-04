@@ -1,0 +1,14 @@
+GeoDatabase: load(), get_connected_points(), get_street_name()
+
+(GeoDatabase holds N points)
+GeoDatabase.load() = O(N)
+
+(There are P connected points to a given point)
+GeoDatabase.get_connected_points() = O(P)
+
+GeoDatabase.get_street_name() = O(1)
+
+Router: route() 
+
+(There are N points in the Geodatabase)
+Router.route() = O(N)
